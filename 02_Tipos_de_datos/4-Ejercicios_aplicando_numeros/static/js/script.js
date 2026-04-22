@@ -137,10 +137,6 @@ function potenciaCalculo () {
 
 function dadoAleatorio() {
     let dado = Math.floor(Math.random() * 6 + 1);
-    alert(`El numero del dado es: ${dado}`);
-    if (dado >= 4) {
-        alert( "Ganaste! El número es mayor o igual a 4.");
-    } else {
-        alert("Perdiste! El número es menor que 4.");
-    }
+    alert(`Tirar Dados: ${dado}! 
+        \n Es mayor que 4?: ${dado >= 4}`);
 }
